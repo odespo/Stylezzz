@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		822E2BBD19A50BB800656EAA /* PictureMatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 822E2BBB19A50BB800656EAA /* PictureMatchViewController.m */; };
+		822E2BBE19A50BB800656EAA /* PictureMatchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 822E2BBC19A50BB800656EAA /* PictureMatchViewController.xib */; };
 		8274B7E019A12F750089261F /* samplePic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8274B7DF19A12F750089261F /* samplePic.jpg */; };
 		82AFC03919A0EAF0001BD5D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82AFC03819A0EAF0001BD5D2 /* Foundation.framework */; };
 		82AFC03B19A0EAF0001BD5D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82AFC03A19A0EAF0001BD5D2 /* CoreGraphics.framework */; };
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		822E2BBA19A50BB800656EAA /* PictureMatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureMatchViewController.h; sourceTree = "<group>"; };
+		822E2BBB19A50BB800656EAA /* PictureMatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureMatchViewController.m; sourceTree = "<group>"; };
+		822E2BBC19A50BB800656EAA /* PictureMatchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PictureMatchViewController.xib; sourceTree = "<group>"; };
 		8274B7DF19A12F750089261F /* samplePic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = samplePic.jpg; sourceTree = "<group>"; };
 		82AFC03519A0EAF0001BD5D2 /* Stylezzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stylezzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82AFC03819A0EAF0001BD5D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -121,7 +126,10 @@
 				8274B7DF19A12F750089261F /* samplePic.jpg */,
 				82AFC04E19A0EAF0001BD5D2 /* ViewController.m */,
 				82AFC05019A0EAF0001BD5D2 /* Images.xcassets */,
+				822E2BBA19A50BB800656EAA /* PictureMatchViewController.h */,
+				822E2BBB19A50BB800656EAA /* PictureMatchViewController.m */,
 				82AFC03F19A0EAF0001BD5D2 /* Supporting Files */,
+				822E2BBC19A50BB800656EAA /* PictureMatchViewController.xib */,
 			);
 			path = Stylezzz;
 			sourceTree = "<group>";
@@ -231,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				822E2BBE19A50BB800656EAA /* PictureMatchViewController.xib in Resources */,
 				82AFC05119A0EAF0001BD5D2 /* Images.xcassets in Resources */,
 				8274B7E019A12F750089261F /* samplePic.jpg in Resources */,
 				82AFC04319A0EAF0001BD5D2 /* InfoPlist.strings in Resources */,
@@ -256,6 +265,7 @@
 				82AFC04F19A0EAF0001BD5D2 /* ViewController.m in Sources */,
 				82AFC04919A0EAF0001BD5D2 /* AppDelegate.m in Sources */,
 				82AFC04519A0EAF0001BD5D2 /* main.m in Sources */,
+				822E2BBD19A50BB800656EAA /* PictureMatchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
