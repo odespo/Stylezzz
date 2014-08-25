@@ -1,10 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5023" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="scZ-vR-TVZ">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
+        <!--Land View Controller-->
+        <scene sceneID="3xU-HM-ipo">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q8J-Ie-L0f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="iAM-y5-gTy" customClass="LandViewController" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="gzs-dH-57P"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="custom" identifier="signedIn" id="dDi-lO-NFi"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-545" y="70"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="56l-yz-Fdi">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="scZ-vR-TVZ" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="JPp-bO-h0I">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="iAM-y5-gTy" kind="relationship" relationship="rootViewController" id="YzI-gW-6oz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wsy-eZ-Uf3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-959" y="89"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
@@ -17,9 +45,11 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="LOW-9T-GLY"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-106" y="82"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

@@ -7,9 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		822E2BBD19A50BB800656EAA /* PictureMatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 822E2BBB19A50BB800656EAA /* PictureMatchViewController.m */; };
+		8218E06219ABA7D400A2FE9A /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8218E06019ABA7D400A2FE9A /* Bolts.framework */; };
+		8218E06319ABA7D400A2FE9A /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8218E06119ABA7D400A2FE9A /* Parse.framework */; };
+		8218E06519ABA7FC00A2FE9A /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8218E06419ABA7FC00A2FE9A /* Accounts.framework */; };
+		8218E06719ABA80200A2FE9A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8218E06619ABA80200A2FE9A /* AudioToolbox.framework */; };
+		8218E06919ABA80700A2FE9A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8218E06819ABA80700A2FE9A /* CFNetwork.framework */; };
+		8218E06B19ABA81100A2FE9A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8218E06A19ABA81100A2FE9A /* CoreLocation.framework */; };
+		8218E06D19ABA81900A2FE9A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8218E06C19ABA81900A2FE9A /* libz.dylib */; };
+		8218E06F19ABA81F00A2FE9A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8218E06E19ABA81F00A2FE9A /* MobileCoreServices.framework */; };
+		8218E07119ABA82A00A2FE9A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8218E07019ABA82A00A2FE9A /* QuartzCore.framework */; };
+		8218E07319ABA82F00A2FE9A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8218E07219ABA82F00A2FE9A /* Security.framework */; };
+		8218E07519ABA83300A2FE9A /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8218E07419ABA83300A2FE9A /* Social.framework */; };
+		8218E07719ABA83700A2FE9A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8218E07619ABA83700A2FE9A /* StoreKit.framework */; };
+		8218E07919ABA84100A2FE9A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8218E07819ABA84100A2FE9A /* SystemConfiguration.framework */; };
+		8218E07D19ABAB9000A2FE9A /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8218E07C19ABAB9000A2FE9A /* FacebookSDK.framework */; };
+		8218E07F19ABAD0600A2FE9A /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8218E07E19ABAD0600A2FE9A /* ParseFacebookUtils.framework */; };
+		822E2BBD19A50BB800656EAA /* CreateStyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 822E2BBB19A50BB800656EAA /* CreateStyleViewController.m */; };
 		822E2BBE19A50BB800656EAA /* PictureMatchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 822E2BBC19A50BB800656EAA /* PictureMatchViewController.xib */; };
+		823C4E6819B172FD00583E69 /* RateStyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 823C4E6719B172FD00583E69 /* RateStyleViewController.m */; };
 		8274B7E019A12F750089261F /* samplePic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8274B7DF19A12F750089261F /* samplePic.jpg */; };
+		82A997FA19ABB2BB00A862D8 /* LandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A997F919ABB2BB00A862D8 /* LandViewController.m */; };
 		82AFC03919A0EAF0001BD5D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82AFC03819A0EAF0001BD5D2 /* Foundation.framework */; };
 		82AFC03B19A0EAF0001BD5D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82AFC03A19A0EAF0001BD5D2 /* CoreGraphics.framework */; };
 		82AFC03D19A0EAF0001BD5D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82AFC03C19A0EAF0001BD5D2 /* UIKit.framework */; };
@@ -37,10 +54,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		822E2BBA19A50BB800656EAA /* PictureMatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureMatchViewController.h; sourceTree = "<group>"; };
-		822E2BBB19A50BB800656EAA /* PictureMatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureMatchViewController.m; sourceTree = "<group>"; };
+		8218E06019ABA7D400A2FE9A /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		8218E06119ABA7D400A2FE9A /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		8218E06419ABA7FC00A2FE9A /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		8218E06619ABA80200A2FE9A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8218E06819ABA80700A2FE9A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		8218E06A19ABA81100A2FE9A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8218E06C19ABA81900A2FE9A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		8218E06E19ABA81F00A2FE9A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		8218E07019ABA82A00A2FE9A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8218E07219ABA82F00A2FE9A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8218E07419ABA83300A2FE9A /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		8218E07619ABA83700A2FE9A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		8218E07819ABA84100A2FE9A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8218E07C19ABAB9000A2FE9A /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		8218E07E19ABAD0600A2FE9A /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		822E2BBA19A50BB800656EAA /* CreateStyleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateStyleViewController.h; sourceTree = "<group>"; };
+		822E2BBB19A50BB800656EAA /* CreateStyleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateStyleViewController.m; sourceTree = "<group>"; };
 		822E2BBC19A50BB800656EAA /* PictureMatchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PictureMatchViewController.xib; sourceTree = "<group>"; };
+		823C4E6619B172FD00583E69 /* RateStyleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateStyleViewController.h; sourceTree = "<group>"; };
+		823C4E6719B172FD00583E69 /* RateStyleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RateStyleViewController.m; sourceTree = "<group>"; };
 		8274B7DF19A12F750089261F /* samplePic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = samplePic.jpg; sourceTree = "<group>"; };
+		82A997F819ABB2BB00A862D8 /* LandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandViewController.h; sourceTree = "<group>"; };
+		82A997F919ABB2BB00A862D8 /* LandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandViewController.m; sourceTree = "<group>"; };
 		82AFC03519A0EAF0001BD5D2 /* Stylezzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stylezzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82AFC03819A0EAF0001BD5D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		82AFC03A19A0EAF0001BD5D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -67,9 +103,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8218E07919ABA84100A2FE9A /* SystemConfiguration.framework in Frameworks */,
+				8218E07719ABA83700A2FE9A /* StoreKit.framework in Frameworks */,
+				8218E07F19ABAD0600A2FE9A /* ParseFacebookUtils.framework in Frameworks */,
+				8218E07519ABA83300A2FE9A /* Social.framework in Frameworks */,
+				8218E07319ABA82F00A2FE9A /* Security.framework in Frameworks */,
+				8218E07119ABA82A00A2FE9A /* QuartzCore.framework in Frameworks */,
+				8218E06F19ABA81F00A2FE9A /* MobileCoreServices.framework in Frameworks */,
+				8218E06D19ABA81900A2FE9A /* libz.dylib in Frameworks */,
+				8218E06B19ABA81100A2FE9A /* CoreLocation.framework in Frameworks */,
+				8218E07D19ABAB9000A2FE9A /* FacebookSDK.framework in Frameworks */,
+				8218E06919ABA80700A2FE9A /* CFNetwork.framework in Frameworks */,
+				8218E06719ABA80200A2FE9A /* AudioToolbox.framework in Frameworks */,
+				8218E06519ABA7FC00A2FE9A /* Accounts.framework in Frameworks */,
 				82AFC03B19A0EAF0001BD5D2 /* CoreGraphics.framework in Frameworks */,
 				82AFC03D19A0EAF0001BD5D2 /* UIKit.framework in Frameworks */,
 				82AFC03919A0EAF0001BD5D2 /* Foundation.framework in Frameworks */,
+				8218E06219ABA7D400A2FE9A /* Bolts.framework in Frameworks */,
+				8218E06319ABA7D400A2FE9A /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +159,21 @@
 		82AFC03719A0EAF0001BD5D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8218E07E19ABAD0600A2FE9A /* ParseFacebookUtils.framework */,
+				8218E07C19ABAB9000A2FE9A /* FacebookSDK.framework */,
+				8218E07819ABA84100A2FE9A /* SystemConfiguration.framework */,
+				8218E07619ABA83700A2FE9A /* StoreKit.framework */,
+				8218E07419ABA83300A2FE9A /* Social.framework */,
+				8218E07219ABA82F00A2FE9A /* Security.framework */,
+				8218E07019ABA82A00A2FE9A /* QuartzCore.framework */,
+				8218E06E19ABA81F00A2FE9A /* MobileCoreServices.framework */,
+				8218E06C19ABA81900A2FE9A /* libz.dylib */,
+				8218E06A19ABA81100A2FE9A /* CoreLocation.framework */,
+				8218E06819ABA80700A2FE9A /* CFNetwork.framework */,
+				8218E06619ABA80200A2FE9A /* AudioToolbox.framework */,
+				8218E06419ABA7FC00A2FE9A /* Accounts.framework */,
+				8218E06119ABA7D400A2FE9A /* Parse.framework */,
+				8218E06019ABA7D400A2FE9A /* Bolts.framework */,
 				82AFC03819A0EAF0001BD5D2 /* Foundation.framework */,
 				82AFC03A19A0EAF0001BD5D2 /* CoreGraphics.framework */,
 				82AFC03C19A0EAF0001BD5D2 /* UIKit.framework */,
@@ -122,12 +188,16 @@
 				82AFC04719A0EAF0001BD5D2 /* AppDelegate.h */,
 				82AFC04819A0EAF0001BD5D2 /* AppDelegate.m */,
 				82AFC04A19A0EAF0001BD5D2 /* Main.storyboard */,
+				82A997F819ABB2BB00A862D8 /* LandViewController.h */,
+				82A997F919ABB2BB00A862D8 /* LandViewController.m */,
+				823C4E6619B172FD00583E69 /* RateStyleViewController.h */,
+				823C4E6719B172FD00583E69 /* RateStyleViewController.m */,
 				82AFC04D19A0EAF0001BD5D2 /* ViewController.h */,
 				8274B7DF19A12F750089261F /* samplePic.jpg */,
 				82AFC04E19A0EAF0001BD5D2 /* ViewController.m */,
 				82AFC05019A0EAF0001BD5D2 /* Images.xcassets */,
-				822E2BBA19A50BB800656EAA /* PictureMatchViewController.h */,
-				822E2BBB19A50BB800656EAA /* PictureMatchViewController.m */,
+				822E2BBA19A50BB800656EAA /* CreateStyleViewController.h */,
+				822E2BBB19A50BB800656EAA /* CreateStyleViewController.m */,
 				82AFC03F19A0EAF0001BD5D2 /* Supporting Files */,
 				822E2BBC19A50BB800656EAA /* PictureMatchViewController.xib */,
 			);
@@ -263,9 +333,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				82AFC04F19A0EAF0001BD5D2 /* ViewController.m in Sources */,
+				82A997FA19ABB2BB00A862D8 /* LandViewController.m in Sources */,
+				823C4E6819B172FD00583E69 /* RateStyleViewController.m in Sources */,
 				82AFC04919A0EAF0001BD5D2 /* AppDelegate.m in Sources */,
 				82AFC04519A0EAF0001BD5D2 /* main.m in Sources */,
-				822E2BBD19A50BB800656EAA /* PictureMatchViewController.m in Sources */,
+				822E2BBD19A50BB800656EAA /* CreateStyleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +462,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/oriondespo/Documents/FacebookSDK,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Stylezzz/Stylezzz-Prefix.pch";
 				INFOPLIST_FILE = "Stylezzz/Stylezzz-Info.plist";
@@ -403,6 +480,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/oriondespo/Documents/FacebookSDK,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Stylezzz/Stylezzz-Prefix.pch";
 				INFOPLIST_FILE = "Stylezzz/Stylezzz-Info.plist";

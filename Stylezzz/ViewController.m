@@ -14,8 +14,11 @@
 
 
 #import "ViewController.h"
-#import "PictureMatchViewController.h"
+#import "CreateStyleViewController.h"
+#import <Parse/Parse.h>
 #import <QuartzCore/QuartzCore.h>
+#import "RateStyleViewController.h"
+
 
 @interface ViewController ()
 @property (nonatomic) UIButton *matchingButton;
@@ -26,20 +29,51 @@
 
 - (void)viewDidLoad
 {
-
+    self.navigationController.navigationBar.hidden=YES;
+    
     [super viewDidLoad];
     self.matchingButton = [[UIButton alloc]init];
     self.matchingButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     self.matchingButton.frame = CGRectMake(20, 20, 200, 200);
-    [self.matchingButton setTitle:@"Match Please" forState:UIControlStateNormal];
-    [self.matchingButton setTitle:@"Match Please" forState:UIControlStateNormal];
-    [self.matchingButton addTarget:self action:@selector(outlineArea:) forControlEvents:UIControlEventTouchUpInside];
+    [self.matchingButton setTitle:@"Upload Photo" forState:UIControlStateNormal];
+    [self.matchingButton setTitle:@"Upload Photo" forState:UIControlStateNormal];
+    [self.matchingButton addTarget:self action:@selector(uploadPhoto:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:self.matchingButton];
+    
+    UIButton *rateButton = [[UIButton alloc]init];
+    rateButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    rateButton.frame = CGRectMake(20, 300, 200, 200);
+    [rateButton setTitle:@"Rate Photo" forState:UIControlStateNormal];
+    [rateButton setTitle:@"Rate Photo" forState:UIControlStateNormal];
+    [rateButton addTarget:self action:@selector(ratePhoto:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:rateButton];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
+-(void)ratePhoto:(UIButton *)button {
+    RateStyleViewController *rate = [[RateStyleViewController alloc]init];
+    [self presentViewController:rate animated:NO completion:NULL];
+}
+
+// UpLoad Photo
+-(void)createStyle:(UIImage *)image
+{
+    // compress image or some shit like that
+    UIGraphicsBeginImageContext(CGSizeMake(640, 960));
+    [image drawInRect: CGRectMake(0, 0, 640, 960)];
+    UIImage *smallImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    CreateStyleViewController *createStyleView = [[CreateStyleViewController alloc]init];
+    createStyleView.image = smallImage;
+    
+   // [self dismissViewControllerAnimated:YES completion:NULL];
+    [self presentViewController:createStyleView animated:YES completion:NULL];
+    
+}
+
 // User Picked to Match Clothes
--(void)matchPlease:(UIButton *)d
+-(void)uploadPhoto:(UIButton *)d
 {
     if([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]) {
         UIImagePickerController *picker = [[UIImagePickerController alloc]init];
@@ -47,27 +81,24 @@
         picker.delegate = self;
         [self presentViewController:picker animated:YES completion:NULL];
     } else {
+        UIImage *image = [UIImage imageNamed:@"samplePic.jpg"];
+        [self createStyle:image];
+        // TODO: come up with way to handle this case
         NSLog(@"camera not supported.");
     }
 }
 
-// User Saved Picture.
-// Show Saved Picture
-// Allow User to Draw on Picture
-// Determine if drawn area matches
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
+    UIImage *image = [info valueForKey:UIImagePickerControllerOriginalImage];
+    [self createStyle:image];
     NSLog(@"hey");
 }
 
-
--(void)outlineArea:(UIButton*)b
+- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
 {
-    UIImage *image = [UIImage imageNamed:@"samplePic.jpg"];
-    PictureMatchViewController *matchViewCon = [[PictureMatchViewController alloc]init];
-    matchViewCon.image = image;
-    [self presentViewController:matchViewCon animated:YES completion:NULL];
-
+    [self dismissViewControllerAnimated:YES completion:NULL];
 }
+
 
 - (void)didReceiveMemoryWarning
 {
