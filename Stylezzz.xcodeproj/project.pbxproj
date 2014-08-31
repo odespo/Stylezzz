@@ -25,6 +25,14 @@
 		822E2BBD19A50BB800656EAA /* CreateStyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 822E2BBB19A50BB800656EAA /* CreateStyleViewController.m */; };
 		822E2BBE19A50BB800656EAA /* PictureMatchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 822E2BBC19A50BB800656EAA /* PictureMatchViewController.xib */; };
 		823C4E6819B172FD00583E69 /* RateStyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 823C4E6719B172FD00583E69 /* RateStyleViewController.m */; };
+		825822BB19B3BA4300B92205 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 825822AC19B3BA4300B92205 /* Cell.m */; };
+		825822BC19B3BA4300B92205 /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 825822AD19B3BA4300B92205 /* Cell.xib */; };
+		825822BD19B3BA4300B92205 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 825822AF19B3BA4300B92205 /* RootViewController.m */; };
+		825822BE19B3BA4300B92205 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 825822B019B3BA4300B92205 /* RootViewController.xib */; };
+		825822BF19B3BA4300B92205 /* UIGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 825822B319B3BA4300B92205 /* UIGridView.m */; };
+		825822C019B3BA4300B92205 /* UIGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 825822B519B3BA4300B92205 /* UIGridViewCell.m */; };
+		825822C119B3BA4300B92205 /* UIGridViewRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 825822B819B3BA4300B92205 /* UIGridViewRow.m */; };
+		825822C219B3BA4300B92205 /* uigridviewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 825822BA19B3BA4300B92205 /* uigridviewAppDelegate.m */; };
 		8274B7E019A12F750089261F /* samplePic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8274B7DF19A12F750089261F /* samplePic.jpg */; };
 		82A997FA19ABB2BB00A862D8 /* LandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A997F919ABB2BB00A862D8 /* LandViewController.m */; };
 		82AFC03919A0EAF0001BD5D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82AFC03819A0EAF0001BD5D2 /* Foundation.framework */; };
@@ -74,6 +82,21 @@
 		822E2BBC19A50BB800656EAA /* PictureMatchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PictureMatchViewController.xib; sourceTree = "<group>"; };
 		823C4E6619B172FD00583E69 /* RateStyleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RateStyleViewController.h; sourceTree = "<group>"; };
 		823C4E6719B172FD00583E69 /* RateStyleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RateStyleViewController.m; sourceTree = "<group>"; };
+		825822AB19B3BA4300B92205 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		825822AC19B3BA4300B92205 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		825822AD19B3BA4300B92205 /* Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell.xib; sourceTree = "<group>"; };
+		825822AE19B3BA4300B92205 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		825822AF19B3BA4300B92205 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		825822B019B3BA4300B92205 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		825822B219B3BA4300B92205 /* UIGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIGridView.h; sourceTree = "<group>"; };
+		825822B319B3BA4300B92205 /* UIGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIGridView.m; sourceTree = "<group>"; };
+		825822B419B3BA4300B92205 /* UIGridViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIGridViewCell.h; sourceTree = "<group>"; };
+		825822B519B3BA4300B92205 /* UIGridViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIGridViewCell.m; sourceTree = "<group>"; };
+		825822B619B3BA4300B92205 /* UIGridViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIGridViewDelegate.h; sourceTree = "<group>"; };
+		825822B719B3BA4300B92205 /* UIGridViewRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIGridViewRow.h; sourceTree = "<group>"; };
+		825822B819B3BA4300B92205 /* UIGridViewRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIGridViewRow.m; sourceTree = "<group>"; };
+		825822B919B3BA4300B92205 /* uigridviewAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uigridviewAppDelegate.h; sourceTree = "<group>"; };
+		825822BA19B3BA4300B92205 /* uigridviewAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = uigridviewAppDelegate.m; sourceTree = "<group>"; };
 		8274B7DF19A12F750089261F /* samplePic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = samplePic.jpg; sourceTree = "<group>"; };
 		82A997F819ABB2BB00A862D8 /* LandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandViewController.h; sourceTree = "<group>"; };
 		82A997F919ABB2BB00A862D8 /* LandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandViewController.m; sourceTree = "<group>"; };
@@ -137,6 +160,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		825822AA19B3BA4300B92205 /* UIGridClasses */ = {
+			isa = PBXGroup;
+			children = (
+				825822AB19B3BA4300B92205 /* Cell.h */,
+				825822AC19B3BA4300B92205 /* Cell.m */,
+				825822AD19B3BA4300B92205 /* Cell.xib */,
+				825822AE19B3BA4300B92205 /* RootViewController.h */,
+				825822AF19B3BA4300B92205 /* RootViewController.m */,
+				825822B019B3BA4300B92205 /* RootViewController.xib */,
+				825822B119B3BA4300B92205 /* UIGridView */,
+				825822B919B3BA4300B92205 /* uigridviewAppDelegate.h */,
+				825822BA19B3BA4300B92205 /* uigridviewAppDelegate.m */,
+			);
+			path = UIGridClasses;
+			sourceTree = "<group>";
+		};
+		825822B119B3BA4300B92205 /* UIGridView */ = {
+			isa = PBXGroup;
+			children = (
+				825822B219B3BA4300B92205 /* UIGridView.h */,
+				825822B319B3BA4300B92205 /* UIGridView.m */,
+				825822B419B3BA4300B92205 /* UIGridViewCell.h */,
+				825822B519B3BA4300B92205 /* UIGridViewCell.m */,
+				825822B619B3BA4300B92205 /* UIGridViewDelegate.h */,
+				825822B719B3BA4300B92205 /* UIGridViewRow.h */,
+				825822B819B3BA4300B92205 /* UIGridViewRow.m */,
+			);
+			path = UIGridView;
+			sourceTree = "<group>";
+		};
 		82AFC02C19A0EAF0001BD5D2 = {
 			isa = PBXGroup;
 			children = (
@@ -185,6 +238,7 @@
 		82AFC03E19A0EAF0001BD5D2 /* Stylezzz */ = {
 			isa = PBXGroup;
 			children = (
+				825822AA19B3BA4300B92205 /* UIGridClasses */,
 				82AFC04719A0EAF0001BD5D2 /* AppDelegate.h */,
 				82AFC04819A0EAF0001BD5D2 /* AppDelegate.m */,
 				82AFC04A19A0EAF0001BD5D2 /* Main.storyboard */,
@@ -310,8 +364,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				822E2BBE19A50BB800656EAA /* PictureMatchViewController.xib in Resources */,
+				825822BC19B3BA4300B92205 /* Cell.xib in Resources */,
 				82AFC05119A0EAF0001BD5D2 /* Images.xcassets in Resources */,
 				8274B7E019A12F750089261F /* samplePic.jpg in Resources */,
+				825822BE19B3BA4300B92205 /* RootViewController.xib in Resources */,
 				82AFC04319A0EAF0001BD5D2 /* InfoPlist.strings in Resources */,
 				82AFC04C19A0EAF0001BD5D2 /* Main.storyboard in Resources */,
 			);
@@ -333,11 +389,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				82AFC04F19A0EAF0001BD5D2 /* ViewController.m in Sources */,
+				825822BF19B3BA4300B92205 /* UIGridView.m in Sources */,
+				825822C119B3BA4300B92205 /* UIGridViewRow.m in Sources */,
 				82A997FA19ABB2BB00A862D8 /* LandViewController.m in Sources */,
+				825822BD19B3BA4300B92205 /* RootViewController.m in Sources */,
+				825822C219B3BA4300B92205 /* uigridviewAppDelegate.m in Sources */,
 				823C4E6819B172FD00583E69 /* RateStyleViewController.m in Sources */,
 				82AFC04919A0EAF0001BD5D2 /* AppDelegate.m in Sources */,
 				82AFC04519A0EAF0001BD5D2 /* main.m in Sources */,
 				822E2BBD19A50BB800656EAA /* CreateStyleViewController.m in Sources */,
+				825822C019B3BA4300B92205 /* UIGridViewCell.m in Sources */,
+				825822BB19B3BA4300B92205 /* Cell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
